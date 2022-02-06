@@ -23,11 +23,14 @@ export default function Home() {
           I&apos;m here to help!
         </p>
         <iframe
-          width="840px"
-          height="630px"
-          id="ytplayer"
-          type="text/html"
-          src="https://www.youtube.com/embed/watch?v=V-xS3g1RLhQ"
+          poster="../public/video.png"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/V-xS3g1RLhQ"
+          title="YouTube video player"
+          // frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          // allowfullscreen
         ></iframe>
 
         <div className={styles.grid}>
